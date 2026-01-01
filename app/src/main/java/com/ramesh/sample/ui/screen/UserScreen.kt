@@ -34,7 +34,6 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.lerp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -73,7 +72,6 @@ fun UserScreen(movieViewModel: MovieViewModel = hiltViewModel()) {
         }
     }
 }
-
 
 // --- SCREEN SECTIONS ---
 
@@ -263,4 +261,3 @@ private fun SectionTitle(title: String, onViewAllClicked: () -> Unit) {
         )
     }
 }
-
